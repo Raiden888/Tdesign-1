@@ -437,40 +437,42 @@ nav:hover .icon div:nth-child(2){
     color:blue;
 }
 /* End hover */
-@media (max-width:757px){
-    h1{
-        font-size:70px;
-    }
-    h1 span{
-        font-size:35px;
-    }
-    .tree{
-        display:none;
-    }
-    .data-intro .data{
-        flex-direction: column;
-        text-align: center;
-    }
-    .data-intro .data .text{
-        text-align: center;
-    }
-    .about-content{
-        flex-direction:column;
-    }
-    .about-content .about-image::after{
-        display:none;
-    }
-    .about-content .about-image::before{
-        display:none;
-    }
-    .portfolio-container{
-        padding:30px;
-    }
-    .paragraph-pick-container , .services-container{
-        padding:0 20px;
-    }
+@media (max-width:757px)
+{
+h1{
+    font-size:70px;
 }
-@media (max-width:990px){
+h1 span{
+    font-size:35px;
+}
+.tree{
+    display:none;
+}
+.data-intro .data{
+    flex-direction: column;
+    text-align: center;
+}
+.data-intro .data .text{
+    text-align: center;
+}
+.about-content{
+    flex-direction:column;
+}
+.about-content .about-image::after{
+    display:none;
+}
+.about-content .about-image::before{
+    display:none;
+}
+.portfolio-container{
+    padding:30px;
+}
+.paragraph-pick-container , .services-container{
+    padding:0 20px;
+}
+}
+@media (max-width:990px)
+{
 .data-intro .data{
     flex-direction: column;
     text-align: center;
