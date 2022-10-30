@@ -26,11 +26,13 @@ header{
     position:relative;
     display:flex;
     justify-content:space-between;
-    width: var(--container-wdith);
+    width: 100%;
     margin:var(--main-margin)
 }
 .logo{
     position:relative;
+    background-image: url("images/logo.jpg");
+    background-size: contain;
     top:10px;
     width: 100px;
     height:50px;
@@ -211,6 +213,9 @@ nav ul::before{
     background-size: cover;
     width:250px;
     height:300px;
+}
+.tcol{
+    justify-self: center;
 }
 .tree::after{
     content: "";
@@ -459,7 +464,7 @@ nav:hover .icon div:nth-child(2){
         display:none;
     }
     .portfolio-container{
-        padding:40px;
+        padding:30px;
     }
     .paragraph-pick-container , .services-container{
         padding:0 20px;
